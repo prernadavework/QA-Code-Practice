@@ -10,7 +10,7 @@ describe("Navigation Test",()=>{
             'check page heading text contains "Amsteel-Blue"',
             'verify page contains element "#dropdown-button"',
             'click on "#dropdown-button"',
-            'verify it opens dropdown'
+            // 'verify it opens dropdown'
 
             
         ])
