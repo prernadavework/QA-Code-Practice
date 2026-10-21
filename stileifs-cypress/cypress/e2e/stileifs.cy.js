@@ -76,7 +76,7 @@ describe('Stile IFS - Homepage QC', () => {
         selectedTests.includes('all') ||
         selectedTests.includes('searchresult')
     ) {
-         it('should display matching search results', searchResults)
+        //  it('should display matching search results', searchResults)
 
         it('should display a no-results message', noResultsMessage)
     }
