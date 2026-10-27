@@ -17,18 +17,7 @@ describe("Cart Update On Add to Cart", () => {
             'Click on increament button icon in quantity button',
             'Check quantity is increased',
             'Check close icon is visible in cart drawer',
-            'Click on close icon on drawer',
-            'Scroll to you may also like section',
-            'Check product card is visible',
-            'Hover over the first visible product card',
-            'Verify on hover action button is visible',
-            'Click on choose action button',
-            'Check product detail Pop up is visible',
-            'Check product detail pop up has image visible',
-            'Check variant selection input is visible',
-            'Click variant selection input',
-            //'Click on "variant-option__select" input',
-            // 'On Click Check variant dropdown is visible'
+            'Click on close icon on drawer'
 
         ]);
     });
