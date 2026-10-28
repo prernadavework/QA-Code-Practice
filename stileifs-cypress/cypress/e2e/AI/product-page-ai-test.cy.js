@@ -11,15 +11,10 @@ describe("Product Recommendations", () => {
             `Inside the product popup, find the variant dropdown select "${targetVariant}" option`,
             'Inside the product popup, click on add to cart button',
             'On header find cart icon, click on cart icon',
-            `Varify cart contains product with variant "${targetVariant}"`
-            
-            
-            //'Click on select option input on popup'
-            //'Click on "Quick add button"'
-            
-            //'Check "quick-add__button--choose" button should be visible on hover',
-            //'Check "quick-add__button--choose" button is visible on hover over "product-card"' 
-            // 'Verify that the hover action button inside that same product card is visible'
+            `Varify cart contains product with variant "${targetVariant}"`,
+            'find close icon on cart drawer, click it.',
+            'Find sticky add to cart at the bottom of the product page before footer',
+            'On Sticky add to cart find add to cart button, click it'
         ]);
     });
 });
